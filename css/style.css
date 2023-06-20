@@ -1,0 +1,181 @@
+/* MINIMUM RESET*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HIDE MENU */
+.toggler {
+    display: none;
+}
+.menu-wrap {
+    display: none;
+}
+
+/* MAIN STYLE */
+html, body {
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 16px;
+    line-height: 1.5;
+}
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+ul {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+}
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* UTILITIES */
+.container {
+    margin: 0 auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+.txt-large {
+    font-size: 1.2rem;
+}
+.txt-light {
+    color: red;
+}
+.display-1 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-shadow: 4px 4px 8px red;
+}
+.btn {
+    display: inline-block;
+    background-color: red;
+    color:black;
+    padding: 12px 20px;
+    border-radius: 4px;
+    margin-top: 10px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.btn-dark:hover {
+    background-color:    red;
+    color: red;
+}
+.bk-main {
+    background: url('../img/Raijin.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.flex-3 {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-3-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.bk-color {
+    background-color: red;
+    padding: 25px;
+}
+
+/* HEADER */
+#mainheader {
+    height: 600px;
+    color: white;
+}
+#mainheader ul li {
+    float: left;
+    padding: 10px;
+}
+#mainheader .nav a {
+    text-shadow: 2px 2px 4px red;
+}
+.nav {
+    float: right;
+}
+
+/* NAVBAR */
+.navbar {
+    height: 45px;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.logo {
+    float: left;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px red;
+}
+
+/* RECYCLED PADDING */
+.p-1 {
+    padding: 100px;
+}
+.p-2 {
+    padding: 25px;
+}
+
+/* SHOWCASE */
+#showcase {
+    text-align: center;
+}
+#showcase a {
+    margin-top: 20px;
+}
+#showcase p {
+    text-shadow: 4px 4px 8px black;
+}
+
+/* PROJECTS */
+#projects img {
+    border-radius: 12%;
+}
+
+/* BENEFITS */
+#benefits i {
+    font-size: 5rem;
+    padding: 10px;
+}
+#benefits p {
+    text-align: center;
+}
+.benefits-secondary {
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* CONTACT */
+#contact .flex-3-box {
+    padding: 20px;
+    text-align: center;
+}
+
+/* FOOTER */
+#mainfooter {
+    text-align: center;
+}
